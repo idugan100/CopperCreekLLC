@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("welding-photo.jpeg");
+    background-size: cover;
+    color: #333;
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+    height: 100vh; /* Set the height to 100% of the viewport height */
+    width: 100vw;
+}
+
+@media (max-width: 768px) {
+    body  {
+        background-image: url("mobile-welding-image.png");
+
+    }
+}
+
+header {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px;
+    background: linear-gradient(
+        to bottom, 
+        rgba(0, 0, 0, 1),  
+        rgba(0, 0, 0, 0)  
+    );
+}
+
+p{
+    font-weight: 900;
+    color: white;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+    font-size: 2rem;
+    /* background-color: black; */
+}
+h1 {
+    margin-top: 1rem;
+    margin-bottom: 0px;
+    padding: 1rem;
+}
+
+h2 {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+}
+
+button{
+    background-color: black;
+    margin: 1rem;
+    padding: 15px;
+    border-radius: 10px;
+    border: black solid 1px;
+    color: white;
+    font-size: 2rem;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer>span{
+    margin: 20px;
+}
+@media (max-width: 768px) {
+    footer > span {
+        display: block; /* Change to block on mobile */
+        margin: 15px 0; /* Adjust margins for better spacing */
+    }
+}
+
+@media (min-width: 768px) {
+    footer {
+    padding: 20px;
+
+    }
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
